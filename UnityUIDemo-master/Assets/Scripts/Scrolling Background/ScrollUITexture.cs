@@ -8,7 +8,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
 public class ScrollUITexture : MonoBehaviour {
     public float scrollSpeed = 0.5f;
     public float scaleFactor = 100;
@@ -30,5 +29,9 @@ public class ScrollUITexture : MonoBehaviour {
             imageToMove.rectTransform.rect.width / scaleFactor,
             imageToMove.rectTransform.rect.height / scaleFactor
         );
+    }
+
+    private  void TestTween(){
+             
     }
 }
